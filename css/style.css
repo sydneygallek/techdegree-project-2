@@ -60,8 +60,10 @@ a {
 /*--HEADER--*/
 
 .intro img {
-    margin: 1em;
+    margin: 0 auto;
     width: 40%;
+    height: 70%;
+    padding: 2.5em;
 }
 
 
