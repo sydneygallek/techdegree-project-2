@@ -1,36 +1,120 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
         <meta name="viewport" content="width=device-width">
         <title>Techdegree Project 2</title>
-        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" type="text/css" href="css/style.css"/>
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;600&family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">
     </head>
 
 
     <body>
-        <div class="main">
-            <header>
-                <nav>
-                <div class="main-nav">
-                <h3 class="name">Sydney Gallek</h3>
-                <ul class="main-ul">
+        <div class="wrap">
+        <header class="main-header">
+            <div class="container">
+                <h1 class="name">Sydney Gallek</h1>
+                <ul class="main-nav">
                     <li><a href="#">Home</a></li>
                     <li><a href="#">Portfolio</a></li>
                     <li><a href="#">Contact</a></li>
                 </ul>
+            </div> <!---closes container div tag-->
+            
+            <div class="intro">
+                <img src="images/profiled.png" alt="my profile image">
+                <p>Hi! I'm a front-end developer who loves responsive 
+                    design and css. I recently finished learning front-end
+                    web development at Treehouse and am excited to put all 
+                    my skills to use!
+                    </p>
             </div>
-            </nav>
-        </header>
 
-        <section class="portfolio">
-            <h1 class="portfolio-header">Portfolio</h1>
-        </section>
+        </header>  
 
-        <footer>
+    <main>
+        <div class="portfolio">
+            <h3 class="portfolio-header">Portfolio</h3>
+        
+        
+        <div class="row-container">
+            <div class="card">
+            <img src="images/portfolio-1.png" alt="screenshot of my search page">
+            <div class="project-titles">Marketing Page</div>
+            <p>This project shows the front page of a marketing website meant for a specific business I'm interested in.
+                </p>
+            </div>
 
-        </footer>
-    </div>
+            <div class="card">
+                <img src="images/portfolio-2.png" alt="blue square with blank webpage">
+                <div class="project-titles">Search Page</div>
+                <p>This project seaches through a specific datebase to
+                    find information that the user is trying to look up.
+                    </p>
+                </div>
+            
+            <div class="card end">
+                    <img src="images/portfolio-3.png" alt="Screenshot of my travel app">
+                    <div class="project-titles">Travel App</div>
+                    <p>This project compares travel times based on different
+                    transportation methods and tells you the best one.
+                    </p>
+                </div>
+
+            <div class="card">
+                    <img src="images/portfolio-4.png" alt="Map of my favorite spots">
+                    <div class="project-titles">Maps of Favorite Spots</div>
+                    <p>This project uses mapping apis to plot points of my
+                    favorite spots in the city for a do-it-yourself walking tour.
+                    </p>
+                </div>
+            
+            <div class="card">
+                    <img src="images/portfolio-5.png" alt="Screenshot of my photo gallery">
+                    <div class="project-titles">Photo Gallery</div>
+                    <p>This project shows pictures from a recent trip to the 
+                    viewer and allows them to easily navigate through photos.
+                    </p>
+                </div>
+                
+            <div class="card end">
+                    <img src="images/portfolio-6.png" alt="Screenshot of the calculator app I made">
+                    <div class="project-titles">Calculator</div>
+                    <p>Someone can enter in the numbers they want, and press
+                    the big blue button and get the result.
+                    </p>
+                </div>   
+        </div> 
+
+        </div> <!---closes portfolio div tag-->
+    </main>
+
+        </div> <!---closes the wrap tag-->
+
+
+        <div class="contact-info" id="contact">
+            <div class="contact">Contact</div>
+            <p class="text-me">If you're interested in chatting or want more information
+            about what I've been working on, I'd love to hear from you!
+            </p>
+            <p class="text">Phone <strong class="phone">  +1(111) 555-1234</strong></p>
+            <p class="text">Email <strong><a href="mailto:email@yoursite.com">email@yoursite.com</a></strong></p>
+        </div>
+      
+            <footer>
+                <nav class="footer-nav">
+                    <h3>Sydney Gallek</h3>
+                    <div class="nav">
+                        <ul class="footer-ul">
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#portfolio">Portfolio</a></li>
+                            <li><a href="#skills">Skills</a></li>
+                            <li><a href="#contact">Contact</a></li>
+                        </ul>
+                    </div>
+                         <a class="top" href="#top">Back to Top</a>
+                </nav>
+            </footer>
     </body>
-
-
 </html>
